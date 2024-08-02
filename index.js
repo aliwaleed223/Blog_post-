@@ -89,7 +89,7 @@ app.post("/essay", (req, res) => {
   res.render("essay");
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT ||port, () => {
   console.log(`Listening on port ${port}`);
 });
 

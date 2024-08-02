@@ -13,5 +13,12 @@
     "body-parser": "^1.20.2",
     "ejs": "^3.1.10",
     "express": "^4.19.2"
+  },
+"script": {
+    "start": "node index.js"
+},
+
+  "engines": {
+    "node": "20.x"
   }
 }
